@@ -1,7 +1,9 @@
+// setup express
+
 require("dotenv").config();
 
-const development = {
-  username: process.env.DB_USER,
+const development = {   // pastikan nama DB" nya sama dengan yg di dalam file .env
+  username: process.env.DB_USER,  
   password: process.env.DB_PASS,
   database: process.env.DB_DATABASE,
   host: process.env.DB_HOST,
